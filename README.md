@@ -1,5 +1,9 @@
 If anyone want to build aicp for LG G3 you can use this manifest.
 
+In your Rom build folder:
+
+$ git clone https://github.com/selvatorxm/local_manifest.git -b 8.1 .repo/local_manifests
+
 Device configuration for LG G3.
 =====================================
 

@@ -1,2 +1,1 @@
-# local_manifest
-AICP device tree manifest
+If anyone want to build aicp you can use this manifest.

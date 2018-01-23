@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="gh"
+fetch="git://github.com/" />
+
+  <!-- Device Trees -->
+
+<project path="device/lge/d850" name="selvatorxm/android_device_lge_d850" remote="gh" revision="8.1" />  
+<project path="device/lge/d851" name="selvatorxm/android_device_lge_d851" remote="gh" revision="8.1" />  
+<project path="device/lge/d852" name="selvatorxm/android_device_lge_d852" remote="gh" revision="8.1" />  
+<project path="device/lge/d855" name="selvatorxm/android_device_lge_d855" remote="gh" revision="8.1" />
+<project path="device/lge/vs985" name="selvatorxm/android_device_lge_vs985" remote="gh" revision="8.1" /> 
+<project path="device/lge/ls990" name="selvatorxm/android_device_lge_ls990" remote="gh" revision="8.1" /> 
+<project path="device/lge/f400" name="selvatorxm/android_device_lge_f400" remote="gh" revision="8.1" />
+<project path="device/lge/g3ds" name="selvatorxm/android_device_lge_g3ds" remote="gh" revision="8.1" />
+<project path="device/lge/g3-common" name="selvatorxm/android_device_lge_g3-common" remote="gh" revision="8.1" />
+
+  <!-- Kernel Tree -->
+  
+<project path="kernel/lge/g3" name="crdroid-devices/android_kernel_lge_g3" remote="gh" revision="8.1" />
+
+  <!-- Vendor Tree -->
+<project path="vendor/lge" name="crdroid-devices/proprietary_vendor_lge" remote="gh" revision="8.1" />
+
+  <!-- Qcom Common Tree -->
+<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="gh" revision="staging/lineage-15.1" />
+
+  <!-- Flip Flap -->
+<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="gh" revision="staging/lineage-15.1" />
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="gh" revision="staging/lineage-15.1" />
+
+</manifest>

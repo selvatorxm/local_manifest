@@ -18,7 +18,7 @@ fetch="git://github.com/" />
 
   <!-- Kernel Tree -->
   
-<project path="kernel/lge/g3" name="crdroid-devices/android_kernel_lge_g3" remote="gh" revision="8.1-los" />
+<project path="kernel/lge/g3" name="selvatorxm/android_kernel_lge_g3" remote="gh" revision="8.1-los" />
 
   <!-- Vendor Tree -->
   

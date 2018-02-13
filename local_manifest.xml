@@ -22,15 +22,15 @@ fetch="git://github.com/" />
 
   <!-- Vendor Tree -->
   
-<project path="vendor/lge" name="selvatorxm/proprietary_vendor_lge" remote="gh" revision="8.1" />
+<project path="vendor/lge" name="crdroid-devices/proprietary_vendor_lge" remote="gh" revision="8.1" />
 
   <!-- Qcom Common Tree -->
   
-<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="gh" revision="staging/lineage-15.1" />
+<project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="gh" revision="lineage-15.1" />
 
   <!-- Flip Flap -->
   
-<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="gh" revision="staging/lineage-15.1" />
-<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="gh" revision="staging/lineage-15.1" />
+<project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" remote="gh" revision="lineage-15.1" />
+<project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="gh" revision="lineage-15.1" />
 
 </manifest>
